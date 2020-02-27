@@ -13,11 +13,10 @@ class Triangle
     else
       if (@s1 == @s2) &&(@s2 == @s3)
         :equilateral
-         elsif (@s1 != @s2) && (@s2 != @s3) && (@s1 != @s3)
-      :scalene
-        
+      elsif (@s1 != @s2) && (@s2 != @s3) && (@s1 != @s3)
+        :scalene
       elsif (@s1 |= @s2) || (@s2 == @s3) || (@s1 == @s2)
-      :isosceles
+        :isosceles
       
     end
   end
